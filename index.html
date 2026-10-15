@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Responsive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="site" role="document" aria-labelledby="pageTitle">
+
+      <!-- Header -->
+      <nav class="navbar" aria-label="Navigasi utama">
+        <a class="logo" href="#">Logo</a>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <header class="site-header" id="home" role="banner">
+        <h1 id="pageTitle">Responsive Web Page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </header>
+
+      <div class="content-layout">
+      <!-- Main content (cards) -->
+      <main class="site-main" role="main" aria-label="Konten utama">
+        <!-- Card 1 -->
+        <article class="card" aria-labelledby="c1title">
+          <div class="thumb" role="img" aria-label="Gambar1">
+            <img alt="Gambar1" src="Img/Gambar1.jpg">
+          </div>
+          <h3 id="c1title">Lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card" aria-labelledby="c2title">
+          <div class="thumb" role="img" aria-label="Gambar2">
+            <img alt="Gambar2" src="Img/Gambar2.jpg">
+          </div>
+          <h3 id="c2title">Lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" aria-labelledby="c3title">
+          <div class="thumb" role="img" aria-label="Gambar3">
+            <img alt="Gambar3" src="Img/Gambar3.jpg">
+          </div>
+          <h3 id="c3title">Lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </article>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="site-sidebar" id="about" role="complementary" aria-label="Sidebar">
+        <h2>Sidebar</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus.</p>
+        <hr style="border:none;border-top:1px solid #eef3fb;margin:12px 0;">
+        <p style="color:var(--muted);font-size:0.95rem;margin-bottom:0.75rem;">Kontrol praktikum:</p>
+        <div class="row">
+          <a class="btn" href="#" role="button">Download Modul</a>
+          <a class="btn" style="background:#14a37f" href="halaman2.html" role="button">Lihat Instruksi</a>
+        </div>
+      </aside>
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer" role="contentinfo">
+        <div id="contact">© 2024 Example - All rights reserved.</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
